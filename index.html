@@ -1,0 +1,113 @@
+<html>
+<head>
+<title>Form</title>
+<style>
+body{
+
+
+BACKGROUND-COLOR:GREEN;
+text-align:CENTER;
+}
+
+div{
+background-color:white;
+width:50vw;
+margin:auto;
+border:2px solid black;
+
+}
+
+label{
+border:0px solid black;
+font-size:3vh;
+
+}
+.inpt{
+padding:2vh;
+width:40vw;
+margin: 15px 0px;
+font-size:3vh;
+border:1px solid black;
+border-radius:5px;
+height:7vh;
+}
+.inpt:focus{
+border:3px solid orange;
+}
+select{
+padding:5px;
+border:1px solid black;
+margin: 15px 0px;
+width:37vw;
+height:7vh;
+font-size:3vh;
+}
+form{
+margin:10px;
+text-align:left;
+}
+.rd{
+font-size:3vh;
+}
+#sumit{
+PADDING-TOP:10PX;
+text-align:center;
+width:37vw;
+height:5vh;
+border:1px solid yellow;;
+background-color:red;
+}
+#SUMIT:HOVER{
+background-color:BLUE;
+}
+</style>
+</head>
+<body>
+<u><h1>Survey FoRm</h1></u>
+<div>
+
+<form>
+<label>Name</label><br>
+<input type="text" placeholder="Enter Username" class="inpt"><br>
+<label>E-mail</label><br>
+<input type="text" placeholder="Enter your E-mail" class="inpt"><br>
+<label>Age</label><br>
+<input type="text" placeholder="Enter your age" class="inpt"><br>
+<label>Which Option best describes you? </label><br>
+<select>
+<option>Student</option>
+<option>Grauate</option>
+<option>Placed</option>
+<option>Intern</option>
+<option>Other</option>
+</select><br>
+<label class="rd">Would you recommend Hackerrank to a friend ? </label><br>
+<input type="radio" name="ask">
+<label class="rd">Yes</label><br>
+<input type="radio" name="ask">
+<label class="rd">no</label><br>
+<input type="radio" name="ask" >
+<label class="rd">maybe</label><br>
+<label class="chk">Languages and Frameworks Known</label><br>
+<input type="checkbox" class="rd">
+<label class="chk">C</label><br>
+<input type="checkbox" class="rd">
+<label class="chk">C++</label><br>
+<input type="checkbox" class="rd">
+<label class="chk">C#</label><br>
+<input type="checkbox" class="rd">
+<label class="chk">Java</label><br>
+<input type="checkbox" class="rd">
+<label class="chk">Python</label><br>
+<input type="checkbox" class="rd">
+<label class="chk">Javascript</label><br><br>
+<label class="chk">Any Comments or Suggestion</label><br>
+<textarea ></textarea><br><br>
+<div id="sumit">SUBMIT</div>
+
+</form>
+
+</div>
+
+</body>
+</html>
